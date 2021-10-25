@@ -1,0 +1,82 @@
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#main-container {
+  width: 1280px;
+  margin: 30px auto 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 17px;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 20px;
+}
+
+#second-container {
+  width: 1065px;
+  margin: auto;
+  padding: 140px 0;
+}
+
+header {
+  text-align: center;
+}
+
+header > img {
+  width: 220px;
+}
+
+header > h1 {
+  font-size: 33px;
+  color: #00DD01;
+  margin-bottom: 18px;
+}
+
+nav {
+  height: 47px;
+  background-color: #00DD01;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  text-align: center;
+  padding: 11px 0;
+}
+
+.show-monopattino {
+  margin-bottom: 25px;
+  color: #fff;
+  line-height: 26px;
+}
+
+.name-monopattino {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.position-monopattino, .charge-text {
+  font-size: 17px;
+}
+
+.charge-monopattino-first {
+  width: 375px;
+  height: 30px;
+  background-color: #F5B453;
+  border-radius: 6px;
+}
+
+.charge-monopattino-second {
+  width: 640px;
+  height: 30px;
+  background-color: #1EC31E;
+  border-radius: 6px;
+}
+
+.charge-monopattino-third {
+  width: 145px;
+  height: 30px;
+  background-color: #BE4141;
+  border-radius: 6px;
+}
